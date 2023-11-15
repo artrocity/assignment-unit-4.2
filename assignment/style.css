@@ -1,0 +1,56 @@
+/* Header */
+header {
+    background-color: #001d3d;
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* Body */
+.container {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: #003566;
+    color: #ffc300;
+}
+
+h3 {
+    background-color: #003566;
+    color: #ffc300;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
+
+img {
+    width: 100%;
+    height: 1100px;
+}
+
+/* Footer */
+footer {
+    max-width: 70%;
+    border: 2px black solid;
+    margin: 1.5rem auto;
+    background-color: #003566;
+}
+
+#contact {
+    margin: 10px auto;
+}
+
+.github {
+    height: 100px;
+    width: 100px;
+    padding: 0 50%;
+}
